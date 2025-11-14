@@ -24,15 +24,15 @@ This folder contains the reports and charts that are generated in this project.
 
 
 ## Charts
-- `1_daily_cases_trend.png`: Daily Cases with 7-Day Average
+- `1_daily_cases_trend.png`: Daily Cases with 7-Day Moving Average
   - Daily reported COVID-19 cases as bars over the last six months.  
   - 7-day moving average line to smooth out daily fluctuations and reveal trends.  
   - Easy to track how case counts are evolving with seasonal or outbreak patterns.  
   **generated from**: [Automated_Reporting.ipynb](../notebooks/Automated_Reporting.ipynb)
     
-- `2_hospitalizations_trend.png`: 
+- `2_hospitalizations_trend.png`: Daily Hospitalizations with 7-Day Moving Average
   - Daily hospitalizations related to COVID-19 as bars.  
-  - Includes a 7-day average line for trend insight.  
+  - Includes a 7-day Moving average line for trend insight.  
   **generated from**: [Automated_Reporting.ipynb](../notebooks/Automated_Reporting.ipynb)
     
 - `3_positivity_rate.png`: 
