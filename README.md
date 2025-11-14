@@ -21,12 +21,16 @@ Synthetic daily time series mimicking COVID-19 pandemic data (2020-03-01 to 2024
 - `Deaths`: daily reported deaths  
 - `Vaccinations`: daily vaccinations administered
 
+**generated from**: [Data_Cleaning_and_Integration.ipynb](../notebooks/Data_Cleaning_and_Integration.ipynb)
+
 ### Processed Data (`covid_integrated_data.csv`)
 Cleaned, merged, and enhanced dataset with additional calculated features:  
 - 7-day rolling averages  
 - Positivity rate (cases/tests)  
 - Week-over-week changes  
 - Cumulative totals
+
+**generated from**: [Data_Cleaning_and_Integration.ipynb](../notebooks/Data_Cleaning_and_Integration.ipynb)
 
 ## Outputs Description
 ### Daily/Weekly Report (`COVID_Report_YYYYMMDD.xlsx`)
@@ -36,11 +40,14 @@ Summarizes daily and weekly key COVID-19 metrics and compares recent performance
 - Sheet 3: Weekly Summary
 - Sheet 4: Key Metrics Comparison
 
+**generated from**: [Automated_Reporting.ipynb](../notebooks/Automated_Reporting.ipynb)
+
 ### Charts
 - `1_daily_cases_trend.png`: Daily Cases with 7-Day Moving Average
 - `2_hospitalizations_trend.png`: Daily hospitalization with 7-Day Moving Average
 - `3_positivity_rate.png`: 7-day average COVID-19 test positivity rate with a 5% reference line recommended by the WHO indicating concerning level of virus spread
 
+**generated from**: [Automated_Reporting.ipynb](../notebooks/Automated_Reporting.ipynb)
 
 ## Technologies Used
 - Python 3.x  
